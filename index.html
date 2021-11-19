@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Light Mode</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="./favicon.png"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="theme-switch-wrapper">
+        <span id="toggle-icon">
+            <span class="toggle-text">Light Mode</span>
+            <i class="fas fa-sun"></i>
+        </span>
+
+        <label class="theme-switch">
+            <input type="checkbox">
+            <div class="slider round"></div>
+        </label>
+    </div>
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+        <div class="title-group">
+            <h1>Custom Title Here</h1>
+            <h2>Welcome to my site</h2>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1>Undraw Illustrations</h1>
+        <div class="about-container">
+            <div class="image-container">
+                <h2>Web Development</h2>
+                <img src="./img/undraw_conceptual_idea_light.svg" id="image1" alt="web development"/>
+            </div>
+            <div class="image-container">
+                <h2>Problem Solving</h2>
+                <img src="./img/undraw_feeling_proud_light.svg" id="image2" alt="problem solving"/>
+            </div>
+            <div class="image-container">
+                <h2>UI Design</h2>
+                <img src="./img/undraw_proud_coder_light.svg" id="image3" alt="web development"/>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h1>Buttons</h1>
+        <div class="buttons">
+            <button class="primary">Primary</button>
+            <button class="secondary">Secondary</button>
+            <button class="primary" disabled>Disabled</button>
+            <button class="outline">Outline</button>
+            <button class="secondary outline">Alt Outline</button>
+            <button class="outline" disabled>Disabled</button>
+
+        </div>
+        <div class="text-box" id="text-box">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                optio, eaque rerum! Provident similique accusantium nemo autem.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <div class="social-icons">
+            <i class="fab fa-github"></i>
+            <i class="fab fa-codepen"></i>
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-medium"></i>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
